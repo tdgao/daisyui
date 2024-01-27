@@ -79,7 +79,7 @@ data="{[
     <p class="py-4">Press ESC key or click the button below to close</p>
     <div class="$$modal-action">
       <form method="dialog">
-        <!-- if there is a button in form, it will close the modal -->
+        <!-- if  is a button in form, it will close the modal -->
         <button class="$$btn">Close</button>
       </form>
     </div>
@@ -95,7 +95,7 @@ data="{[
     <p className="py-4">Press ESC key or click the button below to close</p>
     <div className="$$modal-action">
       <form method="dialog">
-        {/* if there is a button in form, it will close the modal */}
+        {/* if  is a button in form, it will close the modal */}
         <button className="$$btn">Close</button>
       </form>
     </div>
@@ -104,7 +104,7 @@ data="{[
 }</pre>
 </Component>
 
-<Component title="Dialog modal, closes when clicked outside" desc="there a second form with 'modal-backdrop' class and it covers the screen so we can close the modal when clicked outside">
+<Component title="Dialog modal, closes when clicked outside" desc="there is a second form with 'modal-backdrop' class and it covers the screen so we can close the modal when clicked outside">
 <button class="btn" onclick="my_modal_2.showModal()">open modal</button>
 <dialog id="my_modal_2" class="modal">
   <div class="modal-box">
